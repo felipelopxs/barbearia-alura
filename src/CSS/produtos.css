@@ -1,0 +1,56 @@
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+.box {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.produts {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.produts li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-color:black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
+.produts h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.description{
+  font-size: 18px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
